@@ -1,0 +1,57 @@
+body{
+    width:100%;
+    background-size:cover;
+}
+
+.rTable {
+    
+    display: table;
+    width: 100%;
+}
+.rTableRow {
+  display: table-row;
+  font-size: 20px;
+}
+
+.rTableRow .rTableHead {
+    background: black;
+    color : white;
+    border: 1px solid white;
+}
+
+.rTableHead{
+    text-align: center;
+}
+.rTableHeading {
+  display: table-header-group;
+  background-color: black;
+  
+}
+.rTableCell, .rTableHead {
+  display: table-cell;
+  padding: 3px 10px;
+  border: 1px solid #999999;
+  margin-top : 100px;
+  border:1px solid black;
+}
+
+.rTableHeading {
+  display: table-header-group;
+  background-color: #ddd;
+  font-weight: bold;
+  text-align: center;
+}
+.rTableFoot {
+  display: table-footer-group;
+  font-weight: bold;
+  background-color: #ddd;
+}
+.rTableBody {
+  display: table-row-group;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
